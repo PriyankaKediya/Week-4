@@ -1,0 +1,14 @@
+{
+  "name": "htmlpriyankasem3javascript-week2",
+  "version": "0.0.1",
+  "description": "Demo project",
+  "main": "index.js",
+  "author": "Priyanka Kediya",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.2"
+  }
+}
