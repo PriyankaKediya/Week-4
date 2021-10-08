@@ -8,7 +8,7 @@ let indexRouter = require('./routes/index');
 let usersRouter = require('./routes/users');
 
 const app = express();
-export default app; //exports app as a default object for this module
+export default app;
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -28,7 +28,7 @@ app.use(function(req, res, next) {
 });
 
 // error handler
-app.use(function(err:createError.HttpError, req:express.Request, res:express.Response, next:express.NextFunction) {
+app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
