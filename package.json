@@ -29,14 +29,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PriyankaKediya/week3-fall-semester.git"
-  },
+  
   "author": "Priyanka kediya",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PriyankaKediya/week3-fall-semester/issues"
-  },
-  "homepage": "https://github.com/PriyankaKediya/week3-fall-semester#readme"
+  "license": "ISC"
 }
